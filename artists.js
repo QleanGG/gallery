@@ -97,23 +97,48 @@ const artists = {
         paintings: [
             {
                 "title":"Japanese Bridge",
-                "image": 'resources\paintings\picasso\guernica.webp',
+                "image": 'resources\paintings\Claude\japanese_bridge.jpg',
             },
             {
                 "title":"The Artist's Garden at Giverny",
-                "image":"resources\paintings\picasso\Blue_Nude.jpg",
+                "image":'resources\paintings\Claude\Garten_in_Giverny.jpg',
             },
             {
                 "title":"The Cliff Walk at Pourville",
-                "image": 'resources\paintings\picasso\weeping.jpg',
+                "image": 'resources\paintings\Claude\cliff-walk-at-pourville.jpg',
             },
             {
-                "title":"Water Lily Pond and Bridge",
-                "image": 'resources\paintings\picasso\mandolin.jpg',
+                "title":"Nympheas Reflections of Clouds on the Water-Lily Pond",
+                "image": 'resources\paintings\Claude\Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg',
             },
             {
-                "title":"Water-Lilies and Japanese Bridge",
-                "image": 'resources\paintings\picasso\Old_guitarist.jpg',
+                "title":"Woman with a Parasol - Madame Monet and Her Son",
+                "image": 'resources\paintings\Claude\madame_monet_and_her_son.jpg',
+            },
+        ]
+    },
+    artist5: {
+        name:"Menashe Kadishman",
+        paintings: [
+            {
+                "title":"The Binding of Isaac",
+                "image": 'resources\paintings\kadishman\binding-of-isaac.jpg',
+            },
+            {
+                "title":"Sheep",
+                "image":'resources\paintings\kadishman\sheep.jpg',
+            },
+            {
+                "title":"Barren Landscape with a Flock of Sheep",
+                "image": 'resources\paintings\kadishman\Rooster.webp',
+            },
+            {
+                "title":"Herzl's Vision",
+                "image": "resources\paintings\kadishman\Herzl's Vision.webp",
+            },
+            {
+                "title":"Red Cracked Earth",
+                "image": 'resources\paintings\kadishman\Red-Cracked-Earth.jpg',
             },
         ]
     },
