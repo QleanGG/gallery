@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
 </head>
+
 <body>
     <h1>Qlean's Gallery</h1>
 
+    <h2>Select Paintings to Showcase</h2>
 
-    <script src="main.js"></script>
+    <form id="paintingsForm">
+        <!-- checkboxes from js -->
+        <div id="paintingsContainer"></div>
+
+        <br>
+        <button id="showButton" type="button">Showcase</button>
+    </form>
+    <div id="gallery"></div>
+    <script type="module" src="main.js" defer></script>
 </body>
+
 </html>
