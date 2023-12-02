@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(197, 139, 62);
+    text-align: left;
+    /* margin-left: 10px; */
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+#paintingsForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artist_container {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+#showButton {
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+}
+
+#paintingsContainer {
+    margin: auto;
+  
+}
+
+
+.selected-painting {
+    text-align: center;
+    width: 50%;
+    padding: 80px;
+    background-color: rgb(250, 226, 215);
+    margin: 25px auto;
+}
