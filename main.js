@@ -35,7 +35,7 @@ function showcasePaintings() {
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
     const showcaseContainer = document.getElementById('gallery');
 
-    // Clear previous showcase content
+    // Clear the page
     showcaseContainer.innerHTML = '';
 
     if (checkboxes.length > 9) {
