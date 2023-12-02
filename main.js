@@ -54,7 +54,7 @@ function showcasePaintings() {
             showcaseContainer.innerHTML += `
                 <div class = "selected-painting">
                     <h3>${selectedPainting.title}</h3>
-                    <img src="./${selectedPainting.image}" alt="${selectedPainting.title}" style="max-width: 400px; max-height: 400px;">
+                    <img src="./${selectedPainting.image}" alt="${selectedPainting.title}" style="max-width: 500px; max-height: 500px;">
                     <p>Made by ${artist.name}</p>
                 </div>
             `;
