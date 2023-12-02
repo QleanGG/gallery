@@ -24,19 +24,28 @@ function generateCheckbox() {
 }
 
 function showcasePaintings() {
-    // get the checkboxes information
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-    const selectedPaintings = Array.from(checkboxes).map(checkbox => checkbox.value);
-    
-    // set painting limit
-    const maxPaintings = 9;
+    const showcaseContainer = document.getElementById('gallery');
 
-    const finalSelection = selectedPaintings.splice(0, maxPaintings);
+    // Clear previous showcase content
+    showcaseContainer.innerHTML = '';
 
-    // test
-    console.log('Selected Paintings:', finalSelection);
+    checkboxes.forEach(checkbox => {
+        const paintingTitle = checkbox.value;
+        const artistKey = checkbox.name.split('_')[0];
+        const artist = artists[artistKey];
+        const selectedPainting = artist.paintings.find(painting => painting.title === paintingTitle);
 
-    
+        if (selectedPainting) {
+            // Display selected painting with image in the showcase container
+            showcaseContainer.innerHTML += `
+                <div>
+                    <h3>${selectedPainting.title}</h3>
+                    <img src="./${selectedPainting.image}" alt="${selectedPainting.title}" style="max-width: 400px; max-height: 400px;">
+                </div>
+            `;
+        }
+    });
 }
 
 generateCheckbox();
